@@ -1,0 +1,13 @@
+{
+	"name": "Ubuntu Flutter and Android SDK with Emulator",
+	"build": {
+        "dockerfile": "./Dockerfile",
+        "context": "."
+    },
+	"features": {
+		"ghcr.io/devcontainers/features/desktop-lite:1": {}
+	},
+	"forwardPorts": [
+		6080
+	]
+}

@@ -7,7 +7,15 @@
 	"features": {
 		"ghcr.io/devcontainers/features/desktop-lite:1": {}
 	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Dart-Code.flutter"
+			]
+		}
+	},
 	"forwardPorts": [
 		6080
-	]
+	],
+	"postCreateCommand": "/usr/local/finish.sh"
 }

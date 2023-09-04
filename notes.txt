@@ -4,8 +4,8 @@ cd flutter
 wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.13.2-stable.tar.xz
 tar xf flutter_linux_3.13.2-stable.tar.xz
 rm flutter_linux_3.13.2-stable.tar.xz
-export PATH="$PATH:/usr/local/flutter/flutter/bin"
-flutter precache
+### export PATH="$PATH:/usr/local/flutter/flutter/bin"
+### flutter precache
 cd ..
 mkdir android
 cd android
@@ -15,12 +15,12 @@ rm commandlinetools-linux-10406996_latest.zip
 cd cmdline-tools
 mkdir latest
 mv NOTICE.txt bin lib source.properties latest
-export PATH="$PATH:/usr/local/android/cmdline-tools/latest/bin"
-export ANDROID_HOME="/usr/local/android"
-yes | sdkmanager --install "build-tools;34.0.0"
-yes | sdkmanager --install "platforms;android-34"
-yes | sdkmanager --install "platform-tools"
-yes | sdkmanager --licenses
+### export PATH="$PATH:/usr/local/android/cmdline-tools/latest/bin"
+### export ANDROID_HOME="/usr/local/android"
+### yes | sdkmanager --install "build-tools;34.0.0"
+### yes | sdkmanager --install "platforms;android-34"
+### yes | sdkmanager --install "platform-tools"
+### yes | sdkmanager --licenses
 
 # flutter config --android-sdk /usr/local/android
 

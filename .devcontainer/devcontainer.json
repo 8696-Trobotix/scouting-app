@@ -5,7 +5,6 @@
         "context": "."
     },
 	"features": {
-		"ghcr.io/devcontainers/features/desktop-lite:1": {},
 		"ghcr.io/devcontainers/features/java:1": {
 			"installGradle": true,
 			"version": "latest",
@@ -22,8 +21,5 @@
 			]
 		}
 	},
-	"forwardPorts": [
-		6080
-	],
 	"postCreateCommand": "/usr/local/finish.sh"
 }

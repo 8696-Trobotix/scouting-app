@@ -1,5 +1,5 @@
 # Using universal container for Java and other tools.
-FROM mcr.microsoft.com/devcontainers/universal:2-linux
+FROM mcr.microsoft.com/devcontainers/base:focal
 
 # Flutter SDK installation.
 RUN cd /usr/local && mkdir flutter && cd flutter \

@@ -1,9 +1,9 @@
 {
 	"name": "Ubuntu Flutter and Android SDK with Emulator",
 	"build": {
-        "dockerfile": "./Dockerfile",
-        "context": "."
-    },
+		"dockerfile": "./Dockerfile",
+		"context": "."
+	},
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"installGradle": true,

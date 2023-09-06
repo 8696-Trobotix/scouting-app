@@ -1,5 +1,5 @@
 {
-	"name": "Ubuntu Flutter and Android SDK with Emulator",
+	"name": "Ubuntu Flutter and Android SDK",
 	"build": {
 		"dockerfile": "./Dockerfile",
 		"context": "."
@@ -12,7 +12,8 @@
 			"gradleVersion": "latest",
 			"mavenVersion": "latest",
 			"antVersion": "latest"
-		}
+		},
+		"ghcr.io/devcontainers/features/desktop-lite:1": {}
 	},
 	"customizations": {
 		"vscode": {

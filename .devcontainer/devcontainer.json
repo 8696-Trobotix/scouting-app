@@ -15,6 +15,9 @@
 		},
 		"ghcr.io/devcontainers/features/desktop-lite:1": {}
 	},
+	"forwardPorts": [
+		6080
+	],
 	"customizations": {
 		"vscode": {
 			"extensions": [

@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text('A random awsome idea:'),
+          Text('A random awsome idea\nGood grief it\'s hard to debug these things.\nI\'m not done yet:'),
           Text(appState.current.asLowerCase),
           ElevatedButton(
             onPressed: () {
